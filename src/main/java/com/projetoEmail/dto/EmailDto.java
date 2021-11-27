@@ -4,10 +4,9 @@ package com.projetoEmail.dto;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
-import lombok.Data;
 
-@Data
 //DTO é um objeto que é usado para evitar expor a implementação das suas classes diretamente
+//para criar o método post
 public class EmailDto {
 	
 	//@notBlank informa que o campo é obrigatório
